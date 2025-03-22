@@ -8,8 +8,8 @@
   ],
   "rewrites": [
     {
-      "source": "main.php",
-      "destination": "/jio/binge-play/primary.m3u8"
+      "source": "/jio/binge-play/primary.m3u8",
+      "destination": "/main.php"
     }
   ]
 }
