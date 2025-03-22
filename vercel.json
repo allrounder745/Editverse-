@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "**/*.php",
+      "use": "vercel-php"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/main.php",
+      "destination": "/jio/binge-play/primary.m3u8"
+    }
+  ]
+}
